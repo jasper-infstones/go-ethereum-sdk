@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/consensys/gnark-crypto/ecc/bls12-381/fr"
-	gokzg4844 "github.com/crate-crypto/go-kzg-4844"
+	gokzg4844 "github.com/jasper-infstones/go-kzg-4844-sdk"
 )
 
 func randFieldElement() [32]byte {

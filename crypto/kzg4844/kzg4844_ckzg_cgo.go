@@ -23,9 +23,9 @@ import (
 	"errors"
 	"sync"
 
-	gokzg4844 "github.com/crate-crypto/go-kzg-4844"
 	ckzg4844 "github.com/ethereum/c-kzg-4844/bindings/go"
 	"github.com/jasper-infstones/go-ethereum-sdk/common/hexutil"
+	gokzg4844 "github.com/jasper-infstones/go-kzg-4844-sdk"
 )
 
 // ckzgAvailable signals whether the library was compiled into Geth.
